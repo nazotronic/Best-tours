@@ -122,7 +122,7 @@ function Bookings() {
 		};
 
 		fetchReservedTours();
-	}, []);
+	}, [user]);
 
 	// видалення туру
 	const deleteTour = (tour) => {
@@ -141,7 +141,7 @@ function Bookings() {
 			<VideoBackground />
 			<InfoPocket text="Bookings" top="-25px" />
 
-			(user) ?
+			{(user) ?
 			<div className="cards-container">
 				{reservedTours.map((tour) => (
 					<ReservedTourCard key={tour.name} tour={tour} deleteTour={deleteTour} />
@@ -151,7 +151,7 @@ function Bookings() {
 			<div className="registration-req">
 				<p>To see your tours please </p>
 				<span onClick={openAuthBox}>Sign In | Sign Up</span>
-			</div>
+			</div>}
 		</main>
 	);
 }

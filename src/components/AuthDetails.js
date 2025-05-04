@@ -1,10 +1,10 @@
-import { deleteUser, onAuthStateChanged, signOut } from "firebase/auth";
+import { onAuthStateChanged, signOut } from "firebase/auth";
 import React, { useEffect, useState } from "react";
 import { auth } from "../Firebase";
 import { useAuth } from "../AuthContext";
 
 function AuthDetails() {
-	const { isAuthBoxOpen, closeAuthBox } = useAuth();
+	const { closeAuthBox } = useAuth();
 	const [authUser, setAuthUser] = useState(null);
 
     useEffect(() => {

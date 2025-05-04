@@ -20,7 +20,7 @@ function Navbar() {
 					</div>
 				</div>
 				<div className="auth-icon" onClick={toggleAuthBox}>
-					<img src="../images/auth.png" />
+					<img src="../images/auth.png" alt="auth.png" />
 				</div>
 			</nav>
 		</header>

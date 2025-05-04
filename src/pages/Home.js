@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useEffect, useRef } from "react";
 import VideoBackground from "../components/VideoBackground";
 import InfoPocket from "../components/InfoPocket";
 import TourCard from "../components/TourCard";
