@@ -1,0 +1,248 @@
+.auth-box {
+	position: fixed;
+	width: 500px;
+	height: auto;
+	padding-block: 20px;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.95);
+
+	z-index: 100;
+	background: rgba(40, 40, 50, 0.95);
+    border-radius: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+
+	animation: dropIn 0.3s ease forwards;
+}
+
+.auth-nav-bar {
+	display: flex;
+    position: relative;
+    padding-bottom: 15px;
+
+	justify-content: center;
+
+	border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.auth-nav-bar p {
+    margin: 0;
+    margin-right: 30px;
+    padding-bottom: 3px;
+    cursor: pointer;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    color:blue;
+    
+    transition: transform 0.05s ease-in-out;
+}
+
+.auth-nav-bar .tab-active {
+    border-bottom: 2px solid aqua;
+}
+
+.close-btn {
+	position: absolute;
+
+    top: -20px;
+    right: 10px;
+	cursor: pointer;
+
+	font-size: 26px;
+	background: none;
+	border: none;
+	color: aqua;
+
+	transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.auth-content {
+    display: flex;
+    padding-top: 20px;
+
+    justify-content: center;
+}
+
+.sign-in,
+.sign-up {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+
+    align-items: center;
+}
+
+.sign-in input,
+.sign-up input {
+    margin-bottom: 20px;
+	padding: 10px;
+	width: 80%;
+
+	background: transparent;
+	border-radius: 5px;
+	border-color: aqua;
+	border-style: solid;
+	color: aqua;
+}
+
+.sign-in button,
+.sign-up button {
+    padding: 10px;
+	cursor: pointer;
+	
+	background-color: transparent;
+	border-radius: 10px;
+	border-color: aqua;
+	border-style: solid;
+	color: aqua;
+	transition: transform 0.05s ease-in-out;
+
+	font-size: 15px;
+}
+
+.sign-in p,
+.sign-up p {
+    margin: 0;
+    margin-top: 5px;
+    color: red;
+}
+
+.auth-details {
+    position: fixed;
+	width: 500px;
+	height: auto;
+	padding-block: 20px;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.95);
+
+	z-index: 100;
+	background: rgba(40, 40, 50, 0.95);
+    border-radius: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+
+	animation: dropIn 0.3s ease forwards;
+}
+
+.auth-details-header {
+    display: flex;
+    position: relative;
+    padding-bottom: 15px;
+
+	justify-content: center;
+
+	border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.auth-details-header h2 {
+    margin: 0;
+    margin-right: 30px;
+    padding-bottom: 3px;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    color:blue; 
+}
+
+.auth-details-content {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+}
+
+.auth-details-content p {
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    color:aqua;
+}
+
+.auth-details-buttons {
+    display:flex;
+
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.auth-details-buttons button {
+    margin-right: 10px;
+    padding: 10px;
+    width: 80px;
+	cursor: pointer;
+	
+	background-color: transparent;
+	border-radius: 10px;
+	border-color: aqua;
+	border-style: solid;
+	color: aqua;
+	transition: transform 0.05s ease-in-out;
+
+	font-size: 15px;
+}
+
+.auth-details-buttons .delete-btn {
+    margin-right: 10px;
+    padding: 10px;
+    width: 80px;
+	cursor: pointer;
+	
+	background-color: transparent;
+	border-radius: 10px;
+	border-color: red;
+	border-style: solid;
+	color: aqua;
+	transition: transform 0.05s ease-in-out;
+
+	font-size: 15px;
+}
+
+
+.auth-nav-bar p:hover {
+    color:rgba(179, 0, 255, 0.532);
+}
+
+.close-btn:hover {
+	transform: rotate(90deg) scale(1.1);
+	color: red;
+}
+
+.sign-in input:hover,
+.sign-in button:hover,
+.sign-up input:hover,
+.sign-up button:hover,
+.auth-details-buttons button:hover {
+    transform: scale(1.05);
+	border-color: blue;
+}
+
+.auth-details-buttons .delete-btn:hover {
+    transform: scale(1.05);
+    border-color: red;
+}
+
+
+
+@keyframes dropIn {
+	0% {
+		transform: translate(-50%, -50%) scale(0.8);
+		opacity: 0;
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 1;
+	}
+}
