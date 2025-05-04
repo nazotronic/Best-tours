@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Best-tours/static/css/main.78591d07.css",
+    "main.js": "/Best-tours/static/js/main.50367c6c.js",
+    "static/media/Herceg-Novi2.png": "/Best-tours/static/media/Herceg-Novi2.9d4379a9dd7272ea341b.png",
+    "static/media/Ravenna2.png": "/Best-tours/static/media/Ravenna2.bb2e591783db272f9874.png",
+    "static/media/Zadar2.png": "/Best-tours/static/media/Zadar2.cbe4abaca27445ba9f24.png",
+    "static/media/Palma2.png": "/Best-tours/static/media/Palma2.c1c9a12ee406c6fffc2e.png",
+    "static/media/Kotor2.png": "/Best-tours/static/media/Kotor2.6eee77cfcbf60079c262.png",
+    "static/media/Venice2.png": "/Best-tours/static/media/Venice2.9a6137357c1b9d3a9c8e.png",
+    "static/media/Barcelona2.png": "/Best-tours/static/media/Barcelona2.2c7ecd62c505e48dd2f1.png",
+    "static/media/Durres2.png": "/Best-tours/static/media/Durres2.b695b4703c0c4c153952.png",
+    "static/media/Marseille2.png": "/Best-tours/static/media/Marseille2.b65a1d87aeba89e02600.png",
+    "index.html": "/Best-tours/index.html",
+    "main.78591d07.css.map": "/Best-tours/static/css/main.78591d07.css.map",
+    "main.50367c6c.js.map": "/Best-tours/static/js/main.50367c6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78591d07.css",
+    "static/js/main.50367c6c.js"
+  ]
+}
