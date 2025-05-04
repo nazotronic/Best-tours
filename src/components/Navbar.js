@@ -20,7 +20,7 @@ function Navbar() {
 					</div>
 				</div>
 				<div className="auth-icon" onClick={toggleAuthBox}>
-					<img src="/auth.png" alt="auth.png" />
+					<img src={`${process.env.PUBLIC_URL}/images/auth.png`} alt="auth.png" />
 				</div>
 			</nav>
 		</header>

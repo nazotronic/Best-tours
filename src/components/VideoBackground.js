@@ -2,7 +2,7 @@
 function VideoBackground() {
   return (
     <div className="video-container">
-      <video src="../videos/background.mp4" autoPlay muted loop></video>
+      <video src={`${process.env.PUBLIC_URL}/videos/background.mp4`} autoPlay muted loop></video>
     </div>
   );
 }
