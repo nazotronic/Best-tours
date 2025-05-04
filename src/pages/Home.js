@@ -152,6 +152,7 @@ function Home() {
 		<main>
 			<VideoBackground />
 			<InfoPocket text="Hot tours" top="-25px" />
+			<img src={`${process.env.PUBLIC_URL}/images/background1.jpg`} alt="dd" />
 
 			<div className="sort-switch">
 				<button
