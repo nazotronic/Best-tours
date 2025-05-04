@@ -25,7 +25,6 @@ function AuthDetails() {
             console.log(error);
         });
 
-		window.location.reload();
 	}
 
 	function userDelete() {
